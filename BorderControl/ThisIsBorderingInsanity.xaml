@@ -4,7 +4,7 @@
              x:Class="BorderControl.ThisIsBorderingInsanity"
              Title="ThisIsBorderingInsanity">
     <Border Margin="10">
-        <Grid Margin="10" RowDefinitions="*, 3*, *" BackgroundColor="LightGray">
+        <Grid Margin="10" RowDefinitions="*, 3*, *" BackgroundColor="LightGray" >
             <Label x:Name="lbl" Grid.Row="0" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="#f0f5ba" FontSize="30"></Label>
             <Grid Grid.Row="1" RowDefinitions="*, *, *, *, *, *, *, *" ColumnDefinitions="*, *, *, *, *, *, *, *">
                 <Button Clicked="Print" BackgroundColor="blue" Grid.Row="0" Grid.Column="0" Margin="1" Text="1" FontSize="45" Grid.RowSpan="2" Grid.ColumnSpan="2"></Button>
